@@ -1,11 +1,8 @@
 import React from 'react';
+import Router from './router/Router';
 
 const App = () => {
-    return (
-        <div>
-            너 자신을 알라
-        </div>
-    );
+  return <Router />;
 };
 
 export default App;
