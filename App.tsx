@@ -2,7 +2,8 @@ import React from 'react';
 import Router from './router/Router';
 
 const App = () => {
-  return <Router />;
+  return <div>ALA</div>
+  // return <Router />;
 };
 
 export default App;
