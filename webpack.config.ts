@@ -30,15 +30,6 @@ const config: webpack.Configuration = {
   module: {
     rules: [
       {
-        test: /\.html?$/,
-        use: [
-          {
-            loader: 'html-loader',
-            options: { minimize: true },
-          },
-        ],
-      },
-      {
         test: /\.tsx?$/,
         loader: 'babel-loader',
         options: {
